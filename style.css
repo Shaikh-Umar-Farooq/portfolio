@@ -116,6 +116,8 @@ a.underline {
   transition: transform 0.7s;
   background-color: black;
   color: #eeeeee;
+  border-style: solid;
+  border-color: black;
 }
 .project-img-container:hover :not(img) {
   transform: scale(1.05);
