@@ -119,6 +119,16 @@ a.underline {
   border-style: solid;
   border-color: black;
 }
+button {
+  background-color: black;
+  color: #eeeeee;
+  border-style: solid;
+  border-color: black;
+}
+button:hover {
+  background-color: #fccacf;
+  color: #303030;
+}
 .project-img-container:hover :not(img) {
   transform: scale(1.05);
   opacity: 1;
@@ -150,12 +160,12 @@ footer {
   color: #9c9797;
   text-align: center;
   background-color: white;
-  font-family: Mulish;
+  font-family: "Mulish";
 }
 .footer-links a {
   color: #303030;
   margin: 2%;
-  font-family: Mulish;
+  font-family: "Mulish";
   font-weight: 900;
   font-size: 110%;
   text-decoration: none;
@@ -166,6 +176,38 @@ footer {
 .footer-links a:hover {
   color: #f26674;
   text-decoration: underline;
+}
+
+/* about me page */
+.about-container {
+  padding: 5% 10% 10%;
+}
+
+h2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: light;
+}
+p {
+  font-family: "Mulish";
+  font-weight: 500;
+  color: black;
+}
+.highlight {
+  color: #f26674;
+}
+.umar-img-container {
+  text-align: center;
+}
+.umar-img {
+  width: 70%;
+}
+.aboutme-btn-container {
+  font-family: "Barlow";
+  padding-top: 5%;
+}
+.aboutme-btn {
+  margin: 0 5% 10%;
+  padding: 2% 5%;
 }
 @media (max-width: 767px) {
   .nav-logo-container {
